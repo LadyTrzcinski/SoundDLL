@@ -19,3 +19,12 @@ Frequencies:
 
 	
 	You need to include notes.txt in your folder so that they can be loaded.
+
+
+Scales:
+	CalculateScale(int pitch, int octave)
+		Pass in the pitch (0-11) and the octave(0-6) that you want
+		
+	ConvertScaleToFrequencies(vector<string> scale)
+		Pass in the scale you created with CalculateScale or even
+			one that you made on your own
